@@ -1,0 +1,29 @@
+<mvc:View controllerName="ch.saphirDemo.controller.DemoView" 
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:saphir="ch.saphirDemo.utils"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" id="idMaPage">
+				<content>
+			<!--	<saphir:SearchAddressInput-->
+			<!--	id="searchField"-->
+			<!--	width="50%"-->
+			<!--	placeholder="search for..."-->
+			<!--	enableSuggestions="true"-->
+			<!--	search="onSearch"-->
+			<!--	suggest="onSuggest"-->
+			<!--	suggestionItems="{-->
+			<!--		path: '/ProductCollection',-->
+			<!--		sorter: { path: 'Name' }-->
+			<!--	}"-->
+			<!--	>-->
+			<!--	<suggestionItems>-->
+			<!--		<SuggestionItem text="{Name}" description="{path:'Price'} {path:'CurrencyCode'}" key="{ProductId}"/>-->
+			<!--	</suggestionItems>-->
+			<!--</saphir:SearchAddressInput>	-->
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
